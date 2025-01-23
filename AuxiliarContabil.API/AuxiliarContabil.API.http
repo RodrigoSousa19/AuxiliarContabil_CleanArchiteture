@@ -1,0 +1,6 @@
+@AuxiliarContabil.API_HostAddress = http://localhost:5139
+
+GET {{AuxiliarContabil.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
