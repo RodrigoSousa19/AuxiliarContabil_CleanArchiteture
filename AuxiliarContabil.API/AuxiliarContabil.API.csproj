@@ -10,4 +10,14 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AuxiliarContabil.Application\AuxiliarContabil.Application.csproj" />
+    <ProjectReference Include="..\AuxiliarContabil.Core\AuxiliarContabil.Core.csproj" />
+    <ProjectReference Include="..\AuxiliarContabil.Infrastructure\AuxiliarContabil.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
